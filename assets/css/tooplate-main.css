@@ -753,11 +753,13 @@ a {
 	top: 5%;
 	cursor: pointer;
 	transition:  all .3s;
+	z-index: 110;
 	
 }
 #closeIframeBtn:hover {
 	background-color: black;
 	color: white;
+	
 
 
 }
@@ -781,6 +783,7 @@ a {
 
 iframe {
     overflow: hidden;
+	z-index: 10;
 	html {
 		overflow: hidden;
 		cursor: pointer;
