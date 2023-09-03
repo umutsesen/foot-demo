@@ -228,6 +228,15 @@ https://www.tooplate.com/view/2114-pixie
     <script src="assets/js/isotope.js"></script>
     <script src="assets/js/flex-slider.js"></script>
     <script src="assets/index.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          // Check if the screen width is less than or equal to 768px (typical breakpoint for mobile devices)
+          if(window.innerWidth <= 768) {
+              // Select the iframe and adjust its width
+              document.getElementById("productIframe").style.width = "300px";
+          }
+      });
+  </script>
 
 
 
